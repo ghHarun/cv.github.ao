@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+    font-size:smaller   
+}
+
+.container{
+    background-color: rgb(184, 208, 237);
+    max-width: 1350px;
+    margin:0 auto;
+    padding: 10px;
+}
+
+header{
+
+}
+.profile-img{
+    width:80px;
+    height: 80px;
+    border:1px solid whitesmoke;
+    border-radius: 60%;
+    float:left;
+}
+
+.header-bio{
+    float:left;
+    padding: 10px;
+}
+.header-contact{
+    float: right;
+    padding: 10px;
+    margin-top:20px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+    
+}
+.div-clear{
+    clear:both;
+}
+
+hr{
+    border: solid 3px;
+    width:100%;
+    margin: 10px auto;
+    border-bottom:none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#11999e;
+}
+
+/* Main */
+.content{
+
+}
+/* Personal Section */
+.left-div{
+    width:20%;
+    float: left;
+}
+.right-div{
+    width:80%;
+    float:left;
+}
+.common-hr{
+    border:solid 1px black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.right-div p:nth-child(odd){
+    background-color: rgb(180, 201, 222);
+}
+th{background-color:antiquewhite;}
+
+
+.right-div p,tr:nth-child(odd){
+    background-color:rgb(176, 199, 200);
+    color:black
+}
+.right-div p,tr:nth-child(even){
+    background-color:rgb(176, 174, 174);
+    color:black
+}
+table{
+    border-bottom: 2px solid black;
+  }
+table, th {
+    border-bottom: 2px solid black;
+  }
+  
+table tr{
+    padding-bottom:10px;
+  }
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: x-small;
+    vertical-align:text-top;   
+  }
+  #sum-c1{
+    width:3%;
+  }
+  #sum-c2{
+    width:15%;
+  }
+  #sum-c3{
+    width: 12%;
+  }
+  #sum-c4{
+    width:55%;
+  }
+  #sum-c5{
+    width:25%
+  }
+
+  table tr td{
+    vertical-align: top;
+  }
+
+  
+
+  .us{
+    color:rgb(6, 6, 146);
+  }
+  .aid{
+    color:red;
+  }
+  .danida{
+    color:#E9C521;
+    text-shadow: 1px 1px rgb(130, 119, 119);
+  }
+  
+  /*
+  Training Received
+  */
+  #tbltr-c1{
+    width:53%;
+  }
+  #tbltr-c2{
+    width:35%;
+  }
+  #tbltr-c3{
+    width:5%;
+  }
+  #stbltr-c4{
+    width:7%;
+  }
+
+
+  /* Footer Section*/
+  .bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+  }
+  .bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    color:tomato;
+  }
+  a:active{
+    color:blue;
+  }
+  .bottom-container p{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
